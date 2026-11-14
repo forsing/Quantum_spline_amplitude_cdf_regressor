@@ -18,9 +18,9 @@ np.random.seed(39)
 
 
 FILES = (
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90_loto_2981.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90_loto_plus_1737.csv"),
+    Path("/data/loto7_4718_k90.csv"),
+    Path("/data/loto7_4718_k90_loto_2981.csv"),
+    Path("/data/loto7_4718_k90_loto_plus_1737.csv"),
 )
 
 
@@ -303,17 +303,17 @@ Posebnost: Hronoloski B-Spline cvorovi + kontrolisano CRY kolo + zatvorena CDF r
 CSV: loto7_4718_k90.csv
 Validacija NLL (knots=6, pen=5.0): 20.7575
 Test NLL: 20.5991
-NEXT: [1, 9, 13, 21, 26, 34, 39]
+NEXT: [1, x, 13, y, 26, z, 39]
 
 CSV: loto7_4718_k90_loto_2981.csv
 Validacija NLL (knots=6, pen=5.0): 20.6915
 Test NLL: 20.9601
-NEXT: [1, 7, 12, 23, 27, 34, 37]
+NEXT: [1, x, 12, y, 27, z, 37]
 
 CSV: loto7_4718_k90_loto_plus_1737.csv
 Validacija NLL (knots=6, pen=5.0): 20.6263
 Test NLL: 20.8764
-NEXT: [2, 7, 13, 18, 27, 35, 39]
+NEXT: [2, x, 13, y, 27, z, 39]
 """
 
 
